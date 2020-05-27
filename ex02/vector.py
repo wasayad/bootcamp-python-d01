@@ -59,6 +59,7 @@ class Vector():
             for i in range(0, self.size):
                 temp.values[i] = self.values[i] * tosub
         return temp
+
     def __str__(self):
         stri = ""
         stri = stri + 'Vector(values='

@@ -1,11 +1,12 @@
 class Recipe:
-    def __init__(self, name, cooking_1v1, cooking_time, ingredients, description, recipe_type):
+    def __init__(self, name, cooking_1v1, cooking_time, ing, des, recipe_type):
         self.name = name
         self.cooking_1v1 = cooking_1v1
         self.cooking_time = cooking_time
-        self.ingredients = ingredients
-        self.description = description
+        self.ingredients = ing
+        self.description = des
         self.recipe_type = recipe_type
+
     def __str__(self):
         """Return the string to print with the recipe info"""
         txt = ""
